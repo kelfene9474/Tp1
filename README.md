@@ -162,25 +162,25 @@ B<-- n choisi
 
 Tentative <-- 5 
 
-Si ( n= B et tentative<5 ) alors 
+   Si ( n= B et tentative<5 ) alors 
 
 Écrire (" félicitations, nombre correct")
 
-  Sinon Si( n>B ) Alors 
+     Sinon Si( n>B ) Alors 
 
    Écrire ("trop grand")
 
-    Sinon écrire ("trop petit ")
+       Sinon écrire ("trop petit ")
 
-Fin Si 
+     Fin Si 
 
-Fin Si 
+   Fin Si 
 
   Si ( tentative= 5 et n # B ) alors 
 
 Écrire ("le nombre correct est:  " ,B )
 
- Fin Si 
+  Fin Si 
 
 FIN 
 
@@ -194,9 +194,9 @@ DÉBUT
 
 A <-- 1 
 
- Pour i de 1 à n faire 
+  Pour i de 1 à n faire 
 
-   Pour j de 1 à I faire 
+    Pour j de 1 à I faire 
 
       Écrire (A)
 
@@ -226,7 +226,7 @@ Lire (n)
 
 somme<--0
 
-Pour i de 1 à n faire 
+  Pour i de 1 à n faire 
 
 Somme<-- somme+1 
 
@@ -242,13 +242,13 @@ ALGORITHME somme
 
 VAR somme, N  : entier 
 
-Fonction somme (n : entier) 
+  Fonction somme (n : entier) 
 
- Si ( n = 0) alors 
+   Si ( n = 0) alors 
 
   Retourner n
 
-  Sinon retourner somme (n -1)+n 
+   Sinon retourner somme (n -1)+n 
 
   Fin Si 
 
