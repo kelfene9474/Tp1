@@ -162,7 +162,7 @@ B<-- n choisi
 
 Tentative <-- 5 
 
-   Si ( n= B et tentative<5 ) alors 
+    Si ( n= B et tentative<5 ) alors 
 
 Écrire (" félicitations, nombre correct")
 
@@ -194,9 +194,9 @@ DÉBUT
 
 A <-- 1 
 
-  Pour i de 1 à n faire 
+ Pour i de 1 à n faire 
 
-    Pour j de 1 à I faire 
+   Pour j de 1 à I faire 
 
       Écrire (A)
 
@@ -246,7 +246,7 @@ VAR somme, N  : entier
 
    Si ( n = 0) alors 
 
-  Retourner n
+    Retourner n
 
    Sinon retourner somme (n -1)+n 
 
