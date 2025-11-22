@@ -7,24 +7,44 @@ Mon premier projet
 Exercice 1 :
 
 ALGORITHME code PIN 
-VAR constante , tentative, PIN : entier 
+
+VAR constante , tentative, PIN : entier
+ 
 DÉBUT
+
 Constante <--0000
+
 Tentative<--3
-Tantque (tentative<3) faire 
+
+Tantque (tentative<3) faire
+
      Écrire ("saisie le code PIN")
+
      Lire ( PIN)
-                Si ( PIN<--Constante ) alors  
-                   Écrire ("code correct, l'opération se fait avec succès")
-                      Sinon Si("PIN #Constante ") alors 
-                        Écrire ("erreur, il reste (3-tentative) tentatives")
-                           Sinon écrire ("la carte SIM est bloqué ")
-                                    Fin Si 
-                         Fin Si 
-          Fin tantque 
+
+                Si ( PIN<--Constante )
+ alors  
+
+      Écrire ("code correct, l'opération se fait avec succès")
+
+     Sinon Si("PIN #Constante ") alors 
+
+ Écrire ("erreur, il reste (3-tentative) tentatives")
+
+    Sinon écrire ("la carte SIM est bloqué ")
+
+       Fin Si 
+
+     Fin Si
+
+ Fin tantque 
+
   FIN
+
 Exercice 2: 
+
 ALGORITHME  échange des valeurs de deux variables 
+
 VAR  N1,N2: entier 
 DÉBUT 
 Écrire ("donner la valeur de N1")
